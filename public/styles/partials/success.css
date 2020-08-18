@@ -1,0 +1,52 @@
+#page-success {
+    background: var(--color-primary);
+    background-image: url("/images/success-background.svg");
+}
+
+#page-success #container {
+    color: var(--color-text-in-primary);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#page-success .success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-primary);
+}
+
+#page-success .text-container .title {
+    color: var(--color-title-in-primary);
+    font: 700 5.4rem Archivo;
+    margin-top: 4rem;
+    margin-bottom:  2.4rem;
+}
+
+button {
+    width: 17.6rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    background: var(--color-secondary);
+    border: none;
+    margin-top: 8rem;
+}
+
+#page-success .button-container a{
+    text-decoration: none;
+    color: var(--color-button-text);
+}
+
+@media (min-width: 700px) {
+   #page-success {
+       background-position: center;
+       background-repeat: no-repeat;
+   } 
+
+   #page-success .success{
+       background: none;
+   }
+}
