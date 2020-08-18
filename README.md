@@ -1,6 +1,6 @@
 # NLW#2 - Projeto Proffy 
 
-(img/landing-page.png)
+(./img/landing-page.png)
 
 03/08 até 07/08
 
